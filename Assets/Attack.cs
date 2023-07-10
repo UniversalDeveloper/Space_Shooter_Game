@@ -14,7 +14,7 @@ public class Attack : MonoBehaviour
     {
         if (innerAttackRate>= attackRate)
         {
-            Instantiate(shotPref,firePoint);
+            Instantiate(shotPref,firePoint.position,Quaternion.identity     );
             innerAttackRate = 0;
         }
         innerAttackRate += Time.deltaTime;

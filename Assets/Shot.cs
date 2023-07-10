@@ -9,7 +9,7 @@ public class Shot : MonoBehaviour
     
     void Start()
     {
-        FindObjectOfType<Rigidbody2D>().AddForce(Vector2.up*direction*force);
+        FindObjectOfType<Rigidbody2D>().AddForce(Vector2.up*direction*force );
     }
 
 }

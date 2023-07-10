@@ -268,8 +268,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotPref: {fileID: 2181875696360278525, guid: a69510b3dd400724085f9b4987a47d9d, type: 3}
-  firePoint: {fileID: 2181875696360278527, guid: a69510b3dd400724085f9b4987a47d9d, type: 3}
-  attackRate: 1
+  firePoint: {fileID: 509899000}
+  attackRate: 0.2
 --- !u!1 &509898999
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,7 +294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509898999}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.007, y: 0.62, z: 0}
+  m_LocalPosition: {x: 0.149, y: 0.649, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
