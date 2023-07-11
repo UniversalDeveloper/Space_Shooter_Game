@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damege: 2
   direction: -1
-  force: 600
+  force: 300
   lifeTime: 3
 --- !u!50 &5294401878923029236
 Rigidbody2D:
